@@ -52,7 +52,7 @@ public class TestBasicDataSource {
 		
 		ResultSet rs = stmt.executeQuery(sql);
 		
-		Assert.assertNotEquals(rs.next(),false);
+		Assert.assertNotEquals(rs.next(), false);
 		
 		Assert.assertEquals(rs.getString("id"), target);
 	}
