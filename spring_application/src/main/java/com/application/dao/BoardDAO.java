@@ -20,7 +20,7 @@ public interface BoardDAO {
 
 	void deleteBoard(int bno) throws SQLException;
 
-	void increaseViewCnt(int bno) throws SQLException;
+	void increaseViewCnt(int bno) throws SQLException; // 12
 
 	int selectBoardSeqNext() throws SQLException;
 }
